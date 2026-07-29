@@ -38,3 +38,5 @@ Examples of information included in a logon banner:
 * Acceptable use requirements
 * Security warnings
 
+## Screenshots
+###
