@@ -20,7 +20,13 @@ The existing Organizational Units were reviewed in Active Directory Users and Co
 
 The Organizational Units in the environment are used to organize domain objects and provide a structure for applying Group Policy settings to specific users or computers.
 
-> Add the names of your existing OUs here.
+File Server Groups  
+Finance  
+HR  
+IT  
+Servers  
+Workstations  
+
 
 ## Purpose of Organizational Units
 
