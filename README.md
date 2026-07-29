@@ -73,5 +73,4 @@ Group-Policy-Management-Lab/
 │   ├── 02-Reviewing-Existing-Active-Directory-Structure.md
 │   ├── 03-Creating-and-Configuring-a-GPO.md
 │   ├── 04-Linking-and-Applying-the-GPO.md
-│   ├── 05-Testing-Group-Policy-on-Windows-11.md
-│   └── 06-Troubleshooting.md
+│   └── 05-Troubleshooting.md
