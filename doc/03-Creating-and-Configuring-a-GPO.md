@@ -39,4 +39,7 @@ Examples of information included in a logon banner:
 * Security warnings
 
 ## Screenshots
-###
+### Created Logon Banner  
+[![Logon Banner](path/to/image.png)](https://github.com/HarperSec/Group-Policy-Management-Lab/blob/main/screenshots/02-Security-Logon-Banner-GPO-Created.png)
+### Policy Configuration  
+[![Policy Configuration](path/to/image.png)](https://github.com/HarperSec/Group-Policy-Management-Lab/blob/main/screenshots/03-Logon-Banner-Policy-Configuration.png)
