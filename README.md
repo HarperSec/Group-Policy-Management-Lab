@@ -13,7 +13,7 @@ The purpose of this project is to demonstrate how Group Policy can be created, c
 * Review the existing Active Directory Organizational Unit structure
 * Create and configure new Group Policy Objects
 * Link GPOs to existing Organizational Units
-* Apply user and computer configuration settings
+* Apply computer-based Group Policy settings
 * Update Group Policy on a Windows 11 client
 * Verify that Group Policy settings are applied successfully
 * Troubleshoot Group Policy application issues
@@ -38,17 +38,12 @@ The following components were configured before beginning this project:
 * Domain users and security groups
 * A domain password policy
 * A Windows 11 domain-joined client
-* Department file shares
-* NTFS permissions
-* Share permissions
 
 ## Group Policy Configurations
 
 The following policies will be configured and tested during this lab:
 
 * Interactive logon message
-* User-based access restriction
-* Additional Group Policy settings as applicable
 
 ## Skills Demonstrated
 
