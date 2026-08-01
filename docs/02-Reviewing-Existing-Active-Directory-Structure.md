@@ -1,80 +1,72 @@
-# Reviewing the Existing Active Directory Environment
+# Reviewing the Existing Active Directory Structure
 
-## Purpose
+## Overview
 
-Before configuring Group Policy Objects (GPOs), the existing Active Directory environment was reviewed to confirm that the required Organizational Units (OUs), users, groups, and computers were available within the `harper.local` domain.
+Before creating and applying new Group Policy Objects, the existing Active Directory structure was reviewed to identify the Organizational Units, users, groups, and computers available in the domain.
 
-The Active Directory structure was created during the previous Windows Server Active Directory Home Lab. The existing OU design was reused for Group Policy testing instead of creating new organizational structures.
+The Active Directory environment was previously configured as part of an earlier Windows Server and Active Directory lab. Therefore, new Organizational Units were not created for this project.
 
----
+## Existing Domain
 
-## Environment
+The Active Directory domain used in this lab is:
 
-| Component | Configuration |
-|---|---|
-| Operating System | Windows Server 2025 |
-| Domain | `harper.local` |
-| Directory Service | Active Directory Domain Services |
-| Management Tool | Active Directory Users and Computers |
+`harper.local`
 
----
+The domain is hosted on a Windows Server 2025 Domain Controller.
 
-# Reviewing the Existing Domain Structure
+## Existing Organizational Units
 
-Active Directory Users and Computers was opened on the Windows Server 2025 Domain Controller to review the current `harper.local` domain structure.
+The existing Organizational Units were reviewed in Active Directory Users and Computers.
 
-The domain was checked to confirm that the existing Organizational Units and domain objects were available before configuring Group Policy.
+The Organizational Units in the environment are used to organize domain objects and provide a structure for applying Group Policy settings to specific users or computers.
 
-![Active Directory Domain Structure](path/to/image.png)
+File Server Groups  
+Finance  
+HR  
+IT  
+Servers  
+Workstations  
 
----
+## Screenshots  
+### Existing OUs
+[![Existing OUs](path/to/image.png)](https://github.com/HarperSec/Group-Policy-Management-Lab/blob/main/screenshots/01-Active-Directory-Organizational-Units.png)
 
-# Reviewing Organizational Units Used for Group Policy
+## Purpose of Organizational Units
 
-The existing Organizational Units were reviewed to identify where Group Policy Objects would be linked.
+Organizational Units allow administrators to organize users, groups, and computers based on departments, roles, locations, or administrative requirements.
 
-The current OU structure includes:
+OUs can also be used to target Group Policy Objects. When a GPO is linked to an OU, the policy can apply to the users and computers located within that OU.
 
-- File Server Groups
-- Finance
-- HR
-- IT
-- Servers
-- Workstations
+## Existing Domain Objects
 
-These Organizational Units provide separate locations for applying Group Policy settings to specific users, computers, and departments.
+The environment already contains the following Active Directory components:
 
-![Existing Organizational Units](path/to/image.png)
+* Organizational Units
+* Domain user accounts
+* Security groups
+* A Windows 11 domain-joined computer
+* Existing domain security settings
 
----
+## Verification
 
-# Reviewing Existing Domain Objects
+The existing Active Directory structure was reviewed using **Active Directory Users and Computers** on the Windows Server 2025 Domain Controller.
 
-The Active Directory environment was reviewed to confirm that required objects were available for Group Policy testing.
+The following items were verified:
 
-The following objects were verified:
-
-- User accounts
-- Security groups
-- Organizational Units
-- Domain-joined Windows 11 workstation
-
-The existing objects will be used as targets when creating and applying Group Policy configurations.
-
----
+* The `harper.local` domain was available
+* Existing Organizational Units were visible
+* Domain users were located in the appropriate OUs
+* Security groups were available
+* The Windows 11 client was joined to the domain
 
 ## Result
 
-The existing Active Directory environment was confirmed to be ready for Group Policy configuration.
-
-The current OU structure from the Active Directory Home Lab will be used throughout this project to create, link, and test Group Policy Objects.
-
----
+The existing Active Directory structure was successfully reviewed and was ready for Group Policy configuration.
 
 ## Skills Demonstrated
 
-- Active Directory administration
-- Organizational Unit management
-- Domain object organization
-- Group Policy planning
-- Windows Server 2025 administration
+* Active Directory administration
+* Organizational Unit management
+* Domain object organization
+* Group Policy targeting
+* Windows Server administration
