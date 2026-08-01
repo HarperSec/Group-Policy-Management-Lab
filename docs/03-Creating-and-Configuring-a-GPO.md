@@ -12,6 +12,9 @@ A new GPO was created with the following name:
 
 `Security Logon Banner`
 
+![Security Logon Banner](../screenshots/02-Security-Logon-Banner-GPO-Created.png)
+
+
 This GPO will be used to configure an interactive logon message that displays security information before users sign in.
 
 ## Configuration Path
@@ -26,6 +29,8 @@ Computer Configuration
             └── Local Policies
                 └── Security Options
 ```
+![Policy Configuration](../screenshots/03-Logon-Banner-Policy-Configuration.png)  
+
 
 ## Purpose of the Policy
 
