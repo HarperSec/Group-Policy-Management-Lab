@@ -27,9 +27,9 @@ IT
 Servers  
 Workstations  
 
-## Screenshots  
-### Existing OUs
-[![Existing OUs](path/to/image.png)](https://github.com/HarperSec/Group-Policy-Management-Lab/blob/main/screenshots/01-Active-Directory-Organizational-Units.png)
+
+![Existing OUs](../screenshots/01-Active-Directory-Organizational-Units.png)
+
 
 ## Purpose of Organizational Units
 
