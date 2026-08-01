@@ -12,6 +12,8 @@ The Security Logon Banner GPO was linked using the Group Policy Management Conso
 
 The GPO was linked to an existing Organizational Unit that contained the test domain user or computer account.
 
+![GPO Linked](../screenshots/04-GPO-Linked-to-OU.png)
+
 ## Group Policy Application Process
 
 After the GPO was linked, Group Policy was updated on the Windows 11 domain-joined client using:
@@ -24,7 +26,9 @@ This command forces the client computer to immediately check for and apply updat
 
 ## Verification
 
-The policy was verified by restarting the Windows 11 client and confirming that the interactive logon message appeared before sign-in.
+The policy was verified by restarting the Windows 11 client and confirming that the interactive logon message appeared before sign-in.  
+
+![GPO Applied](../screenshots/05-Logon-Banner-Test-Result.png)
 
 The successful appearance of the security banner confirmed that:
 
@@ -33,15 +37,6 @@ The successful appearance of the security banner confirmed that:
 * The Windows 11 client was receiving domain policies
 * Active Directory Group Policy processing was functioning correctly
 
-## Screenshots
-
-### GPO Linked to Organizational Unit
-
-[![GPO Linked to OU](path/to/image.png)](https://github.com/HarperSec/Group-Policy-Management-Lab/blob/main/screenshots/04-GPO-Linked-to-OU.png)
-
-### Group Policy Test Result
-
-[![GPO Successfully Applied](path/to/image.png)](https://github.com/HarperSec/Group-Policy-Management-Lab/blob/main/screenshots/05-Logon-Banner-Test-Result.png)  
 
 ## Result
 
